@@ -1,0 +1,35 @@
+{
+  "server_time": "2026-03-19T11:17:58.921075+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW - AER",
+    "anywhere": false,
+    "date": "2026-03-20",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 14999,
+    "airline_code": null,
+    "source": "aviasales",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Aviasales|MOW|AER|2026-03-20T18:55:00+03:00|6386|https://www.aviasales.ru/search/MOW2003AER1?t=DP17740329001774046400000225SVOAER_93b110a89f3b0e5480d21ec9e85fcaae_6454&search_date=19032026&expected_price_uuid=019d0561-e4ae-8030-a497-c434dd83e036&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=6386",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 6386,
+      "airline": "DP",
+      "departure_at": "2026-03-20T18:55:00+03:00",
+      "transfers": 0,
+      "link": "https://www.aviasales.ru/search/MOW2003AER1?t=DP17740329001774046400000225SVOAER_93b110a89f3b0e5480d21ec9e85fcaae_6454&search_date=19032026&expected_price_uuid=019d0561-e4ae-8030-a497-c434dd83e036&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=6386",
+      "source": "Aviasales",
+      "updated_at": "2026-03-19T11:17:58.920074+00:00",
+      "is_favorite": false,
+      "estimated_price": true
+    }
+  ]
+}

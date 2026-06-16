@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-04-17T11:47:13.566319+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "Москва",
+    "anywhere": true,
+    "date": "2026-04-18",
+    "return_date": "",
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": null,
+    "kupibilet_hot_offer": true
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|MOW|ASB|2026-04-18T07:35:00+00:00|21008|https://www.kupibilet.ru/mbooking/step0/Y10018APRMOWASB/4b6aa5543f074089a9bb5b50ad7b4407376?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "origin": "Москва",
+      "destination": "Ашхабад",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Ашхабад",
+      "origin_code": "MOW",
+      "destination_code": "ASB",
+      "price": 21008,
+      "airline": "S7",
+      "departure_at": "2026-04-18T07:35:00+00:00",
+      "transfers": 0,
+      "link": "https://www.kupibilet.ru/mbooking/step0/Y10018APRMOWASB/4b6aa5543f074089a9bb5b50ad7b4407376?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "source": "Kupibilet",
+      "updated_at": "2026-04-17T11:47:13.563328+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": 32320,
+      "hot_discount_percent": 35,
+      "hot_expires_at": "2026-04-17T12:24:53.563328+00:00",
+      "special_offer_label": "Скидка 35% · 0:37:40"
+    }
+  ]
+}

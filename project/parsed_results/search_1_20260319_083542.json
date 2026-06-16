@@ -1,0 +1,35 @@
+{
+  "server_time": "2026-03-19T08:35:39.412652+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MSQ - MOW",
+    "anywhere": false,
+    "date": "2026-03-20",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 15000,
+    "airline_code": null,
+    "source": "both",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|MSQ|MOW|2026-03-20T00:00:00+00:00|6303|https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:MSQ_2026-03-20_date_2026-03-20_iatax:MOW&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "origin": "Минск",
+      "destination": "Москва",
+      "origin_airport": "Минск",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MSQ",
+      "destination_code": "MOW",
+      "price": 6303,
+      "airline": "Найдено на Kupibilet",
+      "departure_at": "2026-03-20T00:00:00+00:00",
+      "transfers": 0,
+      "link": "https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:MSQ_2026-03-20_date_2026-03-20_iatax:MOW&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "source": "Kupibilet",
+      "updated_at": "2026-03-19T08:35:38.505162+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    }
+  ]
+}

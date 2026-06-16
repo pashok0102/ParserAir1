@@ -1,0 +1,16 @@
+{
+  "server_time": "2026-03-19T08:38:00.042980+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW - MSQ",
+    "anywhere": false,
+    "date": "2026-03-21",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 20000,
+    "airline_code": null,
+    "source": "aviasales",
+    "limit": null
+  },
+  "tickets": []
+}

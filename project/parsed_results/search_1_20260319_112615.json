@@ -1,0 +1,16 @@
+{
+  "server_time": "2026-03-19T11:26:15.918558+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW - AER",
+    "anywhere": false,
+    "date": "2026-03-20",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 15000,
+    "airline_code": null,
+    "source": "tutu",
+    "limit": null
+  },
+  "tickets": []
+}

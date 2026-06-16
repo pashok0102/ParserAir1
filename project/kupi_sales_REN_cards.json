@@ -1,0 +1,17 @@
+[
+  {
+    "i": 0,
+    "text": "18 818 ₽\n13 737 ₽\nОренбург → Новокузнецк\n21:50\n—\n08:20\n22 апр, ср - 23 апр, чт\n8ч 30м\n1 пересадка\nВыгодно\nРоссия, Новокузнецк\nНа карте\nО городе",
+    "json": "{\"@context\":\"https://schema.org\",\"@type\":\"Flight\",\"name\":\"Оренбург → Новокузнецк\",\"departureAirport\":{\"@type\":\"Airport\",\"name\":\"Оренбург\",\"iataCode\":\"REN\"},\"arrivalAirport\":{\"@type\":\"Airport\",\"name\":\"Новокузнецк\",\"iataCode\":\"NOZ\"},\"departureTime\":\"2026-04-22T21:50:00\",\"arrivalTime\":\"2026-04-23T08:20:00\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.kupibilet.ru/booking/step0/Y10022APRRENNOZ/33e6b15304d04883b7a7c7e85aa76317522?currency=RUB&from_iss=true&apply_traffic_id=false\",\"price\":\"13737\",\"priceCurrency\":\"RUB\",\"availability\":\"https://schema.org/InStock\"},\"flightNumber\":\"RT642\",\"estimatedFlightDuration\":\"PT8H30M\",\"provider\":{\"@type\":\"Airline\",\"name\":\"RT\",\"iataCode\":\"RT\"}}"
+  },
+  {
+    "i": 1,
+    "text": "18 134 ₽\n14 507 ₽\nОренбург → Батуми\n04:30\n—\n16:00\n20 апр, пн\n12ч 30м\n1 пересадка\nВыгодно\nГрузия, Батуми\nНа карте\nО городе",
+    "json": "{\"@context\":\"https://schema.org\",\"@type\":\"Flight\",\"name\":\"Оренбург → Батуми\",\"departureAirport\":{\"@type\":\"Airport\",\"name\":\"Оренбург\",\"iataCode\":\"REN\"},\"arrivalAirport\":{\"@type\":\"Airport\",\"name\":\"Батуми\",\"iataCode\":\"BUS\"},\"departureTime\":\"2026-04-20T04:30:00\",\"arrivalTime\":\"2026-04-20T16:00:00\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.kupibilet.ru/booking/step0/Y10020APRRENBUS/de385686377a425aae8fc23e396bd4a3521?currency=RUB&from_iss=true&apply_traffic_id=false\",\"price\":\"14507\",\"priceCurrency\":\"RUB\",\"availability\":\"https://schema.org/InStock\"},\"flightNumber\":\"N4432\",\"estimatedFlightDuration\":\"PT12H30M\",\"provider\":{\"@type\":\"Airline\",\"name\":\"N4\",\"iataCode\":\"N4\"}}"
+  },
+  {
+    "i": 2,
+    "text": "47 977 ₽\n29 746 ₽\nОренбург → Астана\n17:10\n—\n04:50\n30 апр, чт - 1 мая, пт\n11ч 40м\n1 пересадка\nСупер выгодно\nКазахстан, Астана\nНа карте\nО городе",
+    "json": "{\"@context\":\"https://schema.org\",\"@type\":\"Flight\",\"name\":\"Оренбург → Астана\",\"departureAirport\":{\"@type\":\"Airport\",\"name\":\"Оренбург\",\"iataCode\":\"REN\"},\"arrivalAirport\":{\"@type\":\"Airport\",\"name\":\"Астана\",\"iataCode\":\"NQZ\"},\"departureTime\":\"2026-04-30T17:10:00\",\"arrivalTime\":\"2026-05-01T04:50:00\",\"offers\":{\"@type\":\"Offer\",\"url\":\"https://www.kupibilet.ru/booking/step0/Y10030APRRENNQZ/4dd402cbc73c4840998458fdeca5d95837?currency=RUB&from_iss=true&apply_traffic_id=false\",\"price\":\"29746\",\"priceCurrency\":\"RUB\",\"availability\":\"https://schema.org/InStock\"},\"flightNumber\":\"SU1249\",\"estimatedFlightDuration\":\"PT11H40M\",\"provider\":{\"@type\":\"Airline\",\"name\":\"SU\",\"iataCode\":\"SU\"}}"
+  }
+]

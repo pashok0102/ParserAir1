@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-04-14T14:53:00.085946+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW",
+    "anywhere": true,
+    "date": "2026-04-15",
+    "return_date": null,
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": null,
+    "kupibilet_hot_offer": true
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|MOW|IAS|2026-04-15T10:30:00+00:00|19633|https://www.kupibilet.ru/mbooking/step0/Y10015APRMOWIAS/b9a5c278a5b54eaea2592f03fbfdb3ea92?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "origin": "Москва",
+      "destination": "Яссы",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Яссы",
+      "origin_code": "MOW",
+      "destination_code": "IAS",
+      "price": 19633,
+      "airline": "DP",
+      "departure_at": "2026-04-15T10:30:00+00:00",
+      "transfers": 1,
+      "link": "https://www.kupibilet.ru/mbooking/step0/Y10015APRMOWIAS/b9a5c278a5b54eaea2592f03fbfdb3ea92?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "source": "Kupibilet",
+      "updated_at": "2026-04-14T14:53:00.084952+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": 196330,
+      "hot_discount_percent": 90,
+      "hot_expires_at": "",
+      "special_offer_label": "Наши лазейки"
+    }
+  ]
+}

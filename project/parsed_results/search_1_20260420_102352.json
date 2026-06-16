@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-04-20T10:23:50.044786+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "UFA",
+    "anywhere": true,
+    "date": null,
+    "return_date": null,
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": 10,
+    "kupibilet_hot_offer": true
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|UFA|UGC|2026-04-30T04:00:00+00:00|19509|https://www.kupibilet.ru/mbooking/step0/Y10030APRUFAUGC/94373a8298d04a31ba46419228a538b637?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "origin": "Уфа",
+      "destination": "Ургенч",
+      "origin_airport": "Уфа",
+      "destination_airport": "Ургенч",
+      "origin_code": "UFA",
+      "destination_code": "UGC",
+      "price": 19509,
+      "airline": "DP",
+      "departure_at": "2026-04-30T04:00:00+00:00",
+      "transfers": 1,
+      "link": "https://www.kupibilet.ru/mbooking/step0/Y10030APRUFAUGC/94373a8298d04a31ba46419228a538b637?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "source": "Kupibilet",
+      "updated_at": "2026-04-20T10:23:50.040796+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": 43353,
+      "hot_discount_percent": 55,
+      "hot_expires_at": "2026-04-20T17:23:50.040796+00:00",
+      "special_offer_label": "Скидка 55% · 07:00:00"
+    }
+  ]
+}

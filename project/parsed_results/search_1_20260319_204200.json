@@ -1,0 +1,71 @@
+{
+  "server_time": "2026-03-19T20:41:59.059680+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW - AER",
+    "anywhere": false,
+    "date": "2026-03-20",
+    "return_date": null,
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "both",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Tutu.ru|MOW|AER|2026-03-20T00:00:00+00:00|7566|https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&passengers=100&route[0]=491-20032026-78&travelers=1",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 7566,
+      "airline": "DP",
+      "departure_at": "2026-03-20T00:00:00+00:00",
+      "transfers": 0,
+      "link": "https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&passengers=100&route[0]=491-20032026-78&travelers=1",
+      "source": "Tutu.ru",
+      "updated_at": "2026-03-19T20:41:59.059022+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    },
+    {
+      "ticket_key": "Aviasales|MOW|AER|2026-03-20T09:45:00+03:00|7566|https://www.aviasales.ru/search/MOW2003AER1?t=DP17739999001774013700000230SVOAER_fd791e8326ff2f564cb957d84568b584_7567&search_date=19032026&expected_price_uuid=019d0767-0e22-8030-28fa-4f845e621351&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=7566",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 7566,
+      "airline": "DP",
+      "departure_at": "2026-03-20T09:45:00+03:00",
+      "transfers": 0,
+      "link": "https://www.aviasales.ru/search/MOW2003AER1?t=DP17739999001774013700000230SVOAER_fd791e8326ff2f564cb957d84568b584_7567&search_date=19032026&expected_price_uuid=019d0767-0e22-8030-28fa-4f845e621351&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=7566",
+      "source": "Aviasales",
+      "updated_at": "2026-03-19T20:41:49.413515+00:00",
+      "is_favorite": false,
+      "estimated_price": true
+    },
+    {
+      "ticket_key": "Kupibilet|MOW|AER|2026-03-20T00:00:00+00:00|7581|https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:MOW_2026-03-20_date_2026-03-20_iatax:AER&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 7581,
+      "airline": "DP",
+      "departure_at": "2026-03-20T00:00:00+00:00",
+      "transfers": 0,
+      "link": "https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:MOW_2026-03-20_date_2026-03-20_iatax:AER&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "source": "Kupibilet",
+      "updated_at": "2026-03-19T20:41:56.994490+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    }
+  ]
+}

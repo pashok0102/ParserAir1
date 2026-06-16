@@ -1,0 +1,1325 @@
+{
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Город вылета Москва",
+      "cls": "DirectionChips_fixedTrigger__kSG4k",
+      "href": "",
+      "aria": "Москва"
+    },
+    {
+      "i": 1,
+      "text": "",
+      "cls": "MainLogo_linkLogo___2_lN",
+      "href": "https://www.kupibilet.ru/",
+      "aria": ""
+    },
+    {
+      "i": 2,
+      "text": "",
+      "cls": "HeaderAppLinks_headerAppLink__CaJ8C HeaderAppLinks_forNormalPage__3q8yn",
+      "href": "https://app.appsflyer.com/id959473151?pid=Kupibilet.ru&c=main_page_header",
+      "aria": "Скачать приложение в App Store"
+    },
+    {
+      "i": 3,
+      "text": "",
+      "cls": "HeaderAppLinks_headerAppLink__CaJ8C HeaderAppLinks_forNormalPage__3q8yn",
+      "href": "https://play.google.com/store/apps/details?id=ru.kupibilet&c=main_page_header",
+      "aria": "Скачать приложение в Google Play"
+    },
+    {
+      "i": 4,
+      "text": "",
+      "cls": "HeaderAppLinks_headerAppLink__CaJ8C HeaderAppLinks_forNormalPage__3q8yn",
+      "href": "https://appgallery.huawei.com/app/C102237977?referrer=af_tranid%3DQfChvJwekfEAIaPJUjAtiw%26c%3Dmain_page_header%26pid%3DKupibilet.ru",
+      "aria": "Скачать приложение в Huawei AppGallery"
+    },
+    {
+      "i": 5,
+      "text": "₽, RUB",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 IntlToggler_button__DJZBm IntlToggler_forNormalPage__mFZ40",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 6,
+      "text": "",
+      "cls": "_primary_1y9iu_17 _sizeIcon_1y9iu_376 HeaderAuth_loginButtonMobile__ElLKK UserDropdown_userDropdown__88t8e",
+      "href": "",
+      "aria": "Войти"
+    },
+    {
+      "i": 7,
+      "text": "Войти",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 HeaderAuth_loginButtonDesktop__ozflr UserDropdown_userDropdown__88t8e",
+      "href": "",
+      "aria": "Войти"
+    },
+    {
+      "i": 8,
+      "text": "Москва",
+      "cls": "DirectionChips_triggerText__9f8d0",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 9,
+      "text": "",
+      "cls": "_leftBtn_mhpmf_70 _btn_mhpmf_26 _primary_mhpmf_35",
+      "href": "",
+      "aria": "Previous"
+    },
+    {
+      "i": 10,
+      "text": "",
+      "cls": "_rightBtn_mhpmf_82 _btn_mhpmf_26 _primary_mhpmf_35",
+      "href": "",
+      "aria": "Next"
+    },
+    {
+      "i": 11,
+      "text": "Архитектура",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 12,
+      "text": "Исторические места",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 13,
+      "text": "Красивые виды",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 14,
+      "text": "Музеи",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 15,
+      "text": "На море",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 16,
+      "text": "На острова",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 17,
+      "text": "Охота",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 18,
+      "text": "Реки и озера",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 19,
+      "text": "Рыбалка",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 20,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 21,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 22,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 23,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 24,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 25,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 26,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 27,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 28,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 29,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 30,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 31,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 32,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 33,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 34,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 35,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 36,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 37,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 38,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 39,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 40,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 41,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 42,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 43,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 44,
+      "text": "",
+      "cls": "_leftBtn_mhpmf_70 _btn_mhpmf_26 _primary_mhpmf_35",
+      "href": "",
+      "aria": "Previous"
+    },
+    {
+      "i": 45,
+      "text": "",
+      "cls": "_rightBtn_mhpmf_82 _btn_mhpmf_26 _primary_mhpmf_35",
+      "href": "",
+      "aria": "Next"
+    },
+    {
+      "i": 46,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 47,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 48,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 49,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 50,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 51,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 52,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 53,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 54,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 55,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 56,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 57,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 58,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 59,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 60,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 61,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 62,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 63,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 64,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 65,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 66,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 67,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 68,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 69,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithMapAndAbout_actionButton__d1kMS",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 70,
+      "text": "Перейти на карту цен",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 Mapbox_button__V9XUS",
+      "href": "https://kupibilet.ru/price-map",
+      "aria": ""
+    },
+    {
+      "i": 74,
+      "text": "",
+      "cls": "mapboxgl-ctrl-attrib-button",
+      "href": "",
+      "aria": "Toggle attribution"
+    },
+    {
+      "i": 75,
+      "text": "",
+      "cls": "mapboxgl-ctrl-logo",
+      "href": "https://www.mapbox.com/",
+      "aria": "Mapbox homepage"
+    },
+    {
+      "i": 76,
+      "text": "",
+      "cls": "_leftBtn_mhpmf_70 _btn_mhpmf_26 _secondary_mhpmf_50",
+      "href": "",
+      "aria": "Previous"
+    },
+    {
+      "i": 77,
+      "text": "",
+      "cls": "_rightBtn_mhpmf_82 _btn_mhpmf_26 _secondary_mhpmf_50",
+      "href": "",
+      "aria": "Next"
+    },
+    {
+      "i": 78,
+      "text": "",
+      "cls": "_leftBtn_mhpmf_70 _btn_mhpmf_26 _primary_mhpmf_35",
+      "href": "",
+      "aria": "Previous"
+    },
+    {
+      "i": 79,
+      "text": "",
+      "cls": "_rightBtn_mhpmf_82 _btn_mhpmf_26 _primary_mhpmf_35",
+      "href": "",
+      "aria": "Next"
+    },
+    {
+      "i": 80,
+      "text": "Город",
+      "cls": "DirectionChips_trigger__CAR1S",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 81,
+      "text": "Концерты",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 82,
+      "text": "Спорт",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 83,
+      "text": "Фестивали",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 84,
+      "text": "Кино",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 85,
+      "text": "Выставки",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 86,
+      "text": "Шоу",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 87,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 88,
+      "text": "от 22 773 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 89,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 90,
+      "text": "от 81 086 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 91,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 92,
+      "text": "от 67 966 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 93,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 94,
+      "text": "от 18 156 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 95,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 96,
+      "text": "от 19 117 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 97,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 98,
+      "text": "от 59 069 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 99,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 100,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 101,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 102,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 103,
+      "text": "от 41 329 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 104,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 105,
+      "text": "от 59 470 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 106,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 107,
+      "text": "от 31 562 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 108,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 109,
+      "text": "от 64 647 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 110,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 111,
+      "text": "от 64 647 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 112,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 113,
+      "text": "от 61 562 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 114,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 115,
+      "text": "от 64 734 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 116,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 117,
+      "text": "от 20 342 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 118,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 119,
+      "text": "от 49 993 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 120,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 121,
+      "text": "от 17 640 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 122,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 123,
+      "text": "от 17 640 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 124,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 125,
+      "text": "от 17 640 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 126,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 127,
+      "text": "от 18 156 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 128,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 129,
+      "text": "от 80 443 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 130,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 131,
+      "text": "от 45 544 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 132,
+      "text": "Смотреть все",
+      "cls": "_link_1y9iu_151 _sizeLink_1y9iu_370",
+      "href": "https://www.kupibilet.ru/events?departureCity=MOW",
+      "aria": ""
+    },
+    {
+      "i": 133,
+      "text": "Смотреть все",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 BlogContent_blogButton__JPBBT",
+      "href": "https://www.kupibilet.ru/blog",
+      "aria": ""
+    },
+    {
+      "i": 134,
+      "text": "Читать статью",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 BlogCard_button__ac6Z9",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 135,
+      "text": "Читать статью",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 BlogCard_button__ac6Z9",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 136,
+      "text": "Читать статью",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 BlogCard_button__ac6Z9",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 137,
+      "text": "Комбинированные билеты из РЖД и авиа\n\nУ нас можно оформить поездку, где часть пути поездом, а часть — на самолёте.",
+      "cls": "LazeykiCard_card___mety",
+      "href": "",
+      "aria": "Комбинированные билеты из РЖД и авиа"
+    },
+    {
+      "i": 138,
+      "text": "Спрятанный город\n\nИногда билет с пересадкой в нужном городе обходится дешевле, чем прямой перелёт туда.",
+      "cls": "LazeykiCard_card___mety",
+      "href": "",
+      "aria": "Спрятанный город"
+    },
+    {
+      "i": 139,
+      "text": "Смарт-маршруты\n\nНеочевидные маршруты из нескольких рейсов разных авиакомпаний. Так можно выбрать лучшие предложения на каждом сегменте и сэкономить.",
+      "cls": "LazeykiCard_card___mety",
+      "href": "",
+      "aria": "Смарт-маршруты"
+    },
+    {
+      "i": 140,
+      "text": "Зеркальный билет\n\nАвиакомпании часто продают билеты туда-обратно дешевле, чем в один конец. Можно просто не использовать обратный.",
+      "cls": "LazeykiCard_card___mety",
+      "href": "",
+      "aria": "Зеркальный билет"
+    },
+    {
+      "i": 141,
+      "text": "Информация о визах\n\nПоможем разобраться, когда нужна виза, а когда достаточно обычного паспорта.",
+      "cls": "LazeykiCard_card___mety",
+      "href": "",
+      "aria": "Информация о визах"
+    },
+    {
+      "i": 142,
+      "text": "Стоповеры\n\nНекоторые авиакомпании предлагают сделать пересадку и оплачивают отель на время ожидания. Можно провести день в новом месте без лишних затрат.",
+      "cls": "LazeykiCard_card___mety",
+      "href": "",
+      "aria": "Стоповеры"
+    },
+    {
+      "i": 143,
+      "text": "Скачать приложение",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 ApplicationBanner_platformButton__k1VT0",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 144,
+      "text": "нажмите сюда, чтобы скопировать ссылку",
+      "cls": "ApplicationBanner_clipboardLink__In9zz",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 145,
+      "text": "",
+      "cls": "ApplicationBanner_platformLink__oSgKE",
+      "href": "https://app.appsflyer.com/id959473151?c=main_page&pid=kupibilet",
+      "aria": "Скачать приложение в App Store"
+    },
+    {
+      "i": 146,
+      "text": "",
+      "cls": "ApplicationBanner_platformLink__oSgKE",
+      "href": "https://app.appsflyer.com/ru.kupibilet?c=main_page&pid=kupibilet",
+      "aria": "Скачать приложение в Google Play"
+    },
+    {
+      "i": 147,
+      "text": "",
+      "cls": "ApplicationBanner_platformLink__oSgKE",
+      "href": "https://app.appsflyer.com/ru.kupibilet-AppGallery?c=main_page&pid=kupibilet&af_r=https%253A%252F%252Fappgallery.huawei.com%252Fapp%252FC102237977",
+      "aria": "Скачать приложение в Huawei AppGallery"
+    },
+    {
+      "i": 148,
+      "text": "Подписаться",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 SubscriptionForm_button__Kbjgc _fullWidth_1y9iu_402",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 149,
+      "text": "",
+      "cls": "Footer_socialLink__qD5sf",
+      "href": "https://vk.com/kupibilet_ru",
+      "aria": "Мы ВКонтакте"
+    },
+    {
+      "i": 150,
+      "text": "",
+      "cls": "Footer_socialLink__qD5sf",
+      "href": "https://ok.ru/group/53691956396256",
+      "aria": "Мы в Одноклассниках"
+    },
+    {
+      "i": 151,
+      "text": "",
+      "cls": "Footer_socialLink__qD5sf",
+      "href": "https://t.me/kupibiletru",
+      "aria": "Мы в Telegram"
+    },
+    {
+      "i": 152,
+      "text": "",
+      "cls": "Footer_socialLink__qD5sf",
+      "href": "https://x.com/KupibiletRu",
+      "aria": "Мы в X (Twitter)"
+    },
+    {
+      "i": 153,
+      "text": "Главное о Купибилете",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/about",
+      "aria": ""
+    },
+    {
+      "i": 154,
+      "text": "Контакты",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/contacts",
+      "aria": ""
+    },
+    {
+      "i": 155,
+      "text": "Пресс-центр",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/press",
+      "aria": ""
+    },
+    {
+      "i": 156,
+      "text": "Партнерская программа",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://cpa.kupibilet.ru/",
+      "aria": ""
+    },
+    {
+      "i": 157,
+      "text": "База знаний",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/help",
+      "aria": ""
+    },
+    {
+      "i": 158,
+      "text": "Где мой билет",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/download-documents",
+      "aria": ""
+    },
+    {
+      "i": 159,
+      "text": "Блог",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/blog",
+      "aria": ""
+    },
+    {
+      "i": 160,
+      "text": "Акции и распродажи",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/sales?departureCity=MOW",
+      "aria": ""
+    },
+    {
+      "i": 161,
+      "text": "Безопасность",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/payment-security",
+      "aria": ""
+    },
+    {
+      "i": 162,
+      "text": "Конфиденциальность",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/confidential",
+      "aria": ""
+    },
+    {
+      "i": 163,
+      "text": "Оферта",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/agreement",
+      "aria": ""
+    },
+    {
+      "i": 164,
+      "text": "Оформление и покупка",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/help/oformlenie-i-pokupka-aviabiletov",
+      "aria": ""
+    },
+    {
+      "i": 165,
+      "text": "Возврат и обмен",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/refund",
+      "aria": ""
+    },
+    {
+      "i": 166,
+      "text": "Все вопросы и ответы",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/help",
+      "aria": ""
+    },
+    {
+      "i": 167,
+      "text": "",
+      "cls": "Footer_appLink__WS7HI",
+      "href": "https://app.appsflyer.com/id959473151?pid=Kupibilet.ru&c=main_page_footer",
+      "aria": "Скачать приложение в App Store"
+    },
+    {
+      "i": 168,
+      "text": "",
+      "cls": "Footer_appLink__WS7HI",
+      "href": "https://play.google.com/store/apps/details?id=ru.kupibilet&c=main_page_footer",
+      "aria": "Скачать приложение в Google Play"
+    },
+    {
+      "i": 169,
+      "text": "",
+      "cls": "Footer_appLink__WS7HI",
+      "href": "https://appgallery.huawei.com/app/C102237977?referrer=c%3Dmain_page_footer",
+      "aria": "Скачать приложение в Huawei AppGallery"
+    },
+    {
+      "i": 170,
+      "text": "Подробнее",
+      "cls": "_link_1y9iu_151 _sizeText_1y9iu_394 CookiesAgreement_moreDetailsButton__laOFy",
+      "href": "",
+      "aria": ""
+    },
+    {
+      "i": 171,
+      "text": "Согласен",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 CookiesAgreement_btn__cLn8t",
+      "href": "",
+      "aria": ""
+    }
+  ],
+  "sections": [
+    {
+      "i": 22,
+      "cls": "layout_root__ensIR",
+      "text": "Здесь лазейки\n из города\nМосква\n\nНестандартные маршруты и хитрости для экономии на билетах\n\nЛазейки\nАрхитектура\nИсторические места\nКрасивые виды\nМузеи\nНа море\nНа острова\nОхота\nРеки и озера\nРыбалка\n12 653 ₽\n9 996 ₽\nМосква → Усинск\n23:30\n—\n14:50\n22 апр, ср - 23 апр, чт\n15ч 20м\n1 пересадка\nВыгодно\nРоссия, Усинск\nНа карте\nО городе\n17 922 ₽\n13 800 ₽\nМосква → Венеция\n08:45\n—\n01:10\n26 апр, вс - 27 апр, пн\n17ч 25м\n1 пересадка\nВыгодно\nИталия, Венеция\nНа карте\nО городе\n21 012 ₽\n13 658 ₽\nМосква → Бари\n20:5"
+    },
+    {
+      "i": 23,
+      "cls": "page_contentContainer__3xeEa",
+      "text": "Здесь лазейки\n из города\nМосква\n\nНестандартные маршруты и хитрости для экономии на билетах\n\nЛазейки\nАрхитектура\nИсторические места\nКрасивые виды\nМузеи\nНа море\nНа острова\nОхота\nРеки и озера\nРыбалка\n12 653 ₽\n9 996 ₽\nМосква → Усинск\n23:30\n—\n14:50\n22 апр, ср - 23 апр, чт\n15ч 20м\n1 пересадка\nВыгодно\nРоссия, Усинск\nНа карте\nО городе\n17 922 ₽\n13 800 ₽\nМосква → Венеция\n08:45\n—\n01:10\n26 апр, вс - 27 апр, пн\n17ч 25м\n1 пересадка\nВыгодно\nИталия, Венеция\nНа карте\nО городе\n21 012 ₽\n13 658 ₽\nМосква → Бари\n20:5"
+    },
+    {
+      "i": 24,
+      "cls": "page_sectionWithMobilePadding__731ZW",
+      "text": "Здесь лазейки\n из города\nМосква\n\nНестандартные маршруты и хитрости для экономии на билетах"
+    },
+    {
+      "i": 25,
+      "cls": "PromoBlock_container__4HGwl",
+      "text": "Здесь лазейки\n из города\nМосква\n\nНестандартные маршруты и хитрости для экономии на билетах"
+    },
+    {
+      "i": 26,
+      "cls": "PromoBlock_content__G3xz8",
+      "text": "Здесь лазейки\n из города\nМосква\n\nНестандартные маршруты и хитрости для экономии на билетах"
+    },
+    {
+      "i": 27,
+      "cls": "PromoBlock_titleWrapper__pELbm",
+      "text": "Здесь лазейки\n из города\nМосква"
+    },
+    {
+      "i": 361,
+      "cls": "page_sectionWithNoMobilePadding__j2b_x",
+      "text": "Горячие билеты\n9 897 ₽\n6 334 ₽\nМосква → Гомель\n14:55\n—\n16:20\n23 апр, чт\n1ч 25м\nПрямой рейс\n−36% ∙ 1:44:25\nНа карте\nО городе\n19 128 ₽\n8 799 ₽\nМосква → Хургада\n22:50\n—\n06:00\n16 апр, чт - 17 апр, пт\n8ч 10м\nПрямой рейс\n−54% ∙ 0:00:00\nНа карте\nО городе\n21 019 ₽\n13 032 ₽\nМосква → Бухарест\n09:00\n—\n20:40\n19 апр, вс\n11ч 40м\n1 пересадка\n−38% ∙ 0:56:31\nНа карте\nО городе\n21 012 ₽\n13 658 ₽\nМосква → Бари\n20:50\n—\n05:50\n26 апр, вс - 27 апр, пн\n10ч\n1 пересадка\n−35% ∙ 0:29:24\nНа карте\nО городе\n41 397 ₽\n25 252 ₽\nМ"
+    },
+    {
+      "i": 362,
+      "cls": "HotTicketsBlock_container__W1SlJ",
+      "text": "Горячие билеты\n9 897 ₽\n6 334 ₽\nМосква → Гомель\n14:55\n—\n16:20\n23 апр, чт\n1ч 25м\nПрямой рейс\n−36% ∙ 1:44:25\nНа карте\nО городе\n19 128 ₽\n8 799 ₽\nМосква → Хургада\n22:50\n—\n06:00\n16 апр, чт - 17 апр, пт\n8ч 10м\nПрямой рейс\n−54% ∙ 0:00:00\nНа карте\nО городе\n21 019 ₽\n13 032 ₽\nМосква → Бухарест\n09:00\n—\n20:40\n19 апр, вс\n11ч 40м\n1 пересадка\n−38% ∙ 0:56:31\nНа карте\nО городе\n21 012 ₽\n13 658 ₽\nМосква → Бари\n20:50\n—\n05:50\n26 апр, вс - 27 апр, пн\n10ч\n1 пересадка\n−35% ∙ 0:29:24\nНа карте\nО городе\n41 397 ₽\n25 252 ₽\nМ"
+    },
+    {
+      "i": 363,
+      "cls": "HotTicketsBlock_header__F3_Q2",
+      "text": "Горячие билеты"
+    },
+    {
+      "i": 364,
+      "cls": "HotTicketsBlock_headerContent__TFQjb",
+      "text": "Горячие билеты"
+    },
+    {
+      "i": 365,
+      "cls": "HotTicketsBlock_headerLeft__tn3vy",
+      "text": "Горячие билеты"
+    },
+    {
+      "i": 789,
+      "cls": "page_sectionWithNoMobilePadding__j2b_x",
+      "text": "Интересные события\nСмотреть все\nГород\nКонцерты\nСпорт\nФестивали\nКино\nВыставки\nШоу\n22 февраля – 16 мая\nФестиваль в Ароматной пагоде (Chua Huong)\nКомплекс пагод и храмов Хыонг (Ханой, Вьетнам)\nПодробнее\nот 22 773 ₽\n10 апреля – 19 апреля\nCoachella Valley Music and Arts Festival\nEmpire Polo Club (Индио, США)\nПодробнее\nот 81 086 ₽\n10 апреля – 19 апреля\nCoachella Valley Music and Arts Festival 2026\nEmpire Polo Club (Индіо, США)\nПодробнее\nот 67 966 ₽\n22 мая – 24 мая\nГран-при Испании Формулы-1 2026\nАвтод"
+    },
+    {
+      "i": 790,
+      "cls": "EventsCarousel_container__XqEYb",
+      "text": "Интересные события\nСмотреть все\nГород\nКонцерты\nСпорт\nФестивали\nКино\nВыставки\nШоу\n22 февраля – 16 мая\nФестиваль в Ароматной пагоде (Chua Huong)\nКомплекс пагод и храмов Хыонг (Ханой, Вьетнам)\nПодробнее\nот 22 773 ₽\n10 апреля – 19 апреля\nCoachella Valley Music and Arts Festival\nEmpire Polo Club (Индио, США)\nПодробнее\nот 81 086 ₽\n10 апреля – 19 апреля\nCoachella Valley Music and Arts Festival 2026\nEmpire Polo Club (Индіо, США)\nПодробнее\nот 67 966 ₽\n22 мая – 24 мая\nГран-при Испании Формулы-1 2026\nАвтод"
+    },
+    {
+      "i": 791,
+      "cls": "EventsCarousel_header__pgJ_J",
+      "text": "Интересные события\nСмотреть все\nГород\nКонцерты\nСпорт\nФестивали\nКино\nВыставки\nШоу"
+    },
+    {
+      "i": 792,
+      "cls": "EventsCarousel_headerContent__DjnDj",
+      "text": "Интересные события\nСмотреть все\nГород\nКонцерты\nСпорт\nФестивали\nКино\nВыставки\nШоу"
+    },
+    {
+      "i": 793,
+      "cls": "EventsCarousel_headerTop__Djoql",
+      "text": "Интересные события\nСмотреть все"
+    },
+    {
+      "i": 794,
+      "cls": "_wrapper_f4k6g_17 _showOnDesktop_f4k6g_28",
+      "text": "Смотреть все"
+    },
+    {
+      "i": 795,
+      "cls": "EventsCarousel_buttons__8GRtp",
+      "text": "Смотреть все"
+    },
+    {
+      "i": 796,
+      "cls": "_clickableWrapper_rx9qw_1",
+      "text": "Смотреть все"
+    },
+    {
+      "i": 797,
+      "cls": "GoToAllButton_container__VCRZ2 GoToAllButton_primary__UZ813",
+      "text": "Смотреть все"
+    },
+    {
+      "i": 1022,
+      "cls": "_wrapper_f4k6g_17 _showOnMobile_f4k6g_22",
+      "text": "Смотреть все"
+    },
+    {
+      "i": 1026,
+      "cls": "page_sectionWithMobilePadding__731ZW",
+      "text": "Статьи блога о том, как сэкономить на билетах\nСмотреть все\n\nНаши авторы раскрывают секреты путешествий\n\nКуда поехать\nКуда поехать в 2026 году?\n\nКакие страны и города станут популярными в 2026 году у туристов\n\nЧитать статью\nCоветы путешественникам\nВсе способы сэкономить в путешествии\n\nКак сэкономить на путешествии: 25+ советов для бюджета\n\nЧитать статью\nНовости\nНовые правила въезда и получения виз в 2025 году\n\nКак изменились визовые требования и правила въезда в 2025 году\n\nЧитать статью"
+    },
+    {
+      "i": 1027,
+      "cls": "BlogContent_container__YP_hG",
+      "text": "Статьи блога о том, как сэкономить на билетах\nСмотреть все\n\nНаши авторы раскрывают секреты путешествий\n\nКуда поехать\nКуда поехать в 2026 году?\n\nКакие страны и города станут популярными в 2026 году у туристов\n\nЧитать статью\nCоветы путешественникам\nВсе способы сэкономить в путешествии\n\nКак сэкономить на путешествии: 25+ советов для бюджета\n\nЧитать статью\nНовости\nНовые правила въезда и получения виз в 2025 году\n\nКак изменились визовые требования и правила въезда в 2025 году\n\nЧитать статью"
+    },
+    {
+      "i": 1028,
+      "cls": "BlogContent_head__ok8Ry",
+      "text": "Статьи блога о том, как сэкономить на билетах\nСмотреть все\n\nНаши авторы раскрывают секреты путешествий"
+    },
+    {
+      "i": 1029,
+      "cls": "BlogContent_titleSection__xrgjS",
+      "text": "Статьи блога о том, как сэкономить на билетах\nСмотреть все\n\nНаши авторы раскрывают секреты путешествий"
+    },
+    {
+      "i": 1030,
+      "cls": "BlogContent_titleRow__KrLcg",
+      "text": "Статьи блога о том, как сэкономить на билетах\nСмотреть все"
+    },
+    {
+      "i": 1031,
+      "cls": "BlogContent_blogButtonWrapper__ob1a0",
+      "text": "Смотреть все"
+    }
+  ],
+  "body": "Город вылета Москва\nГде мой билет?\nПоддержка\n₽, RUB\nВойти\nЗдесь лазейки\n из города\nМосква\n\nНестандартные маршруты и хитрости для экономии на билетах\n\nЛазейки\nАрхитектура\nИсторические места\nКрасивые виды\nМузеи\nНа море\nНа острова\nОхота\nРеки и озера\nРыбалка\n12 653 ₽\n9 996 ₽\nМосква → Усинск\n23:30\n—\n14:50\n22 апр, ср - 23 апр, чт\n15ч 20м\n1 пересадка\nВыгодно\nРоссия, Усинск\nНа карте\nО городе\n17 922 ₽\n13 800 ₽\nМосква → Венеция\n08:45\n—\n01:10\n26 апр, вс - 27 апр, пн\n17ч 25м\n1 пересадка\nВыгодно\nИталия, Венеция\nНа карте\nО городе\n21 012 ₽\n13 658 ₽\nМосква → Бари\n20:50\n—\n05:50\n26 апр, вс - 27 апр, пн\n10ч\n1 пересадка\nСупер выгодно\nИталия, Бари\nНа карте\nО городе\n65 911 ₽\n24 387 ₽\nМосква → Ниш\n06:50\n—\n17:10\n21 апр, вт\n11ч 20м\n1 пересадка\nСупер выгодно\nСербия, Ниш\nНа карте\nО городе\n59 474 ₽\n25 574 ₽\nМосква → Ираклион\n06:50\n—\n17:55\n21 апр, вт\n11ч 5м\n1 пересадка\nСупер выгодно\nГреция, Ираклион\nНа карте\nО городе\n39 157 ₽\n29 368 ₽\nМосква → город Люксембург\n06:40\n—\n17:40\n29 апр, ср\n12ч\n1 пересадка\nВыгодно\nЛюксембург, город Люксембург\nНа карте\nО городе\n53 191 ₽\n28 723 ₽\nМосква → Родос\n05:30\n—\n17:55\n30 апр, чт\n12ч 25м\n1 пересадка\nСупер выгодно\nГреция, Родос\nНа карте\nО городе\n45 541 ₽\n26 414 ₽\nМосква → Гданьск\n13:30\n—\n23:10\n29 апр, ср\n10ч 40м\n1 пересадка\nСупер выгодно\nПольша, Гданьск\nНа карте\nО городе\n73 602 ₽\n33 857 ₽\nМосква → Варанаси\n18:40\n—\n09:20\n20 апр, пн - 21 апр, вт\n12ч 10м\n1 пересадка\nСупер выгодно\nИндия, Варанаси\nНа карте\nО городе\n69 975 ₽\n39 186 ₽\nМосква → Сплит\n13:30\n—\n06:05\n19 апр, вс - 20 апр, пн\n17ч 35м\n1 пересадка\nСупер выгодно\nХорватия, Сплит\nНа карте\nО городе\n62 538 ₽\n45 027 ₽\nМосква → Бейрут\n01:15\n—\n11:10\n26 апр, вс\n9ч 55м\n1 пересадка\nВыгодно\nЛиван, Бейрут\nНа карте\nО городе\n68 384 ₽\n34 876 ₽\nМосква → Удайпур\n18:40\n—\n13:10\n27 апр, пн - 28 апр, вт\n16ч\n1 пересадка\nСупер выгодно\nИндия, Удайпур\nНа карте\nО городе\nГорячие билеты\n9 897 ₽\n6 334 ₽\nМосква → Гомель\n14:55\n—\n16:20\n23 апр, чт\n1ч 25м\nПрямой рейс\n−36% ∙ 1:44:25\nНа карте\nО городе\n19 128 ₽\n8 799 ₽\nМосква → Хургада\n22:50\n—\n06:00\n16 апр, чт - 17 апр, пт\n8ч 10м\nПрямой рейс\n−54% ∙ 0:00:00\nНа карте\nО городе\n21 019 ₽\n13 032 ₽\nМосква → Бухарест\n09:00\n—\n20:40\n19 апр, вс\n11ч 40м\n1 пересадка\n−38% ∙ 0:56:31\nНа карте\nО городе\n21 012 ₽\n13 658 ₽\nМосква → Бари\n20:50\n—\n05:50\n26 апр, вс - 27 апр, пн\n10ч\n1 пересадка\n−35% ∙ 0:29:24\nНа карте\nО городе\n41 397 ₽\n25 252 ₽\nМосква → Чэнду\n21:55\n—\n15:25\n21 апр, вт - 22 апр, ср\n12ч 30м\n1 пересадка\n−39% ∙ 1:02:40\nНа карте\nО городе\n54 089 ₽\n19 472 ₽\nМосква → Ленск\n20:20\n—\n12:45\n17 апр, пт - 18 апр, сб\n10ч 25м\n1 пересадка\n−64% ∙ 1:43:19\nНа карте\nО городе\n60 171 ₽\n24 670 ₽\nМосква → Туркестан\n13:20\n—\n01:05\n17 апр, пт - 18 апр, сб\n9ч 45м\n1 пересадка\n−59% ∙ 0:00:00\nНа карте\nО городе\n45 815 ₽\n29 780 ₽\nМосква → Гданьск\n13:30\n—\n23:10\n17 апр, пт\n10ч 40м\n1 пересадка\n−35% ∙ 0:00:00\nНа карте\nО городе\n48 991 ₽\n34 294 ₽\nМосква → Чжанцзяцзе\n22:20\n—\n14:30\n27 апр, пн - 28 апр, вт\n11ч 10м\n1 пересадка\n−30% ∙ 0:20:35\nНа карте\nО городе\n56 811 ₽\n34 655 ₽\nМосква → Чанчжоу\n22:20\n—\n15:50\n27 апр, пн - 28 апр, вт\n12ч 30м\n1 пересадка\n−39% ∙ 0:00:00\nНа карте\nО городе\n72 039 ₽\n33 138 ₽\nМосква → Глазго\n09:50\n—\n22:15\n15 апр, ср\n14ч 25м\n1 пересадка\n−54% ∙ 1:13:52\nНа карте\nО городе\n66 627 ₽\n41 975 ₽\nМосква → Флоренция\n22:55\n—\n22:40\n16 апр, чт - 17 апр, пт\n24ч 45м\n1 пересадка\n−37% ∙ 0:00:00\nНа карте\nО городе\nКарта городов\nПерейти на карту цен\nИнтересные места\nКрасная площадь\n\nМосква\n\nВДНХ\n\nМосква\n\nЦентральный парк культуры и отдыха имени Горького\n\nМосква\n\nМузей-заповедник Царицыно\n\nМосква\n\nМосковский Кремль\n\nМосква\n\nКоломенское\n\nМосква\n\nАвиапарк\n\nМосква\n\nПоклонная гора\n\nМосква\n\nТорговый центр Columbus\n\nМосква\n\nГосударственная Третьяковская галерея\n\nМосква\n\nМосковский зоопарк\n\nМосква\n\nВоробьёвы горы\n\nМосква\n\nМосквариум\n\nМосква\n\nБольшой театр\n\nМосква\n\nГлавная арка входа ВДНХ\n\nМосква\n\nИнтересные события\nСмотреть все\nГород\nКонцерты\nСпорт\nФестивали\nКино\nВыставки\nШоу\n22 февраля – 16 мая\nФестиваль в Ароматной пагоде (Chua Huong)\nКомплекс пагод и храмов Хыонг (Ханой, Вьетнам)\nПодробнее\nот 22 773 ₽\n10 апреля – 19 апреля\nCoachella Valley Music and Arts Festival\nEmpire Polo Club (Индио, США)\nПодробнее\nот 81 086 ₽\n10 апреля – 19 апреля\nCoachella Valley Music and Arts Festival 2026\nEmpire Polo Club (Индіо, США)\nПодробнее\nот 67 966 ₽\n22 мая – 24 мая\nГран-при Испании Формулы-1 2026\nАвтодром Барселона-Каталунья (Монмело (пригород Барселоны), Испания)\nПодробнее\nот 18 156 ₽\n17 июня – 20 июня\nVivaTech 2026\nParis Expo Porte de Versailles (Париж, Франция)\nПодробнее\nот 19 117 ₽\n17 июля – 19 июля\nTomorrowland 2026\nРекреационный парк Де Схорре, Бум (Антверпен, Бельгия)\nПодробнее\nот 59 069 ₽\n30 июля – 2 августа\nLollapalooza Chicago\nГрант-Парк (Чикаго, США)\nПодробнее\n14 августа – 16 августа\nФестиваль Summer Sonic 2026 Осака\nMaishima Sports Island (Осака, Япония)\nПодробнее\n4 сентября – 13 сентября\nРок в Рио Бразилия 2026\nГород Рока, Олимпийский парк (Рио-де-Жанейро, Бразилия)\nПодробнее\n30 октября – 9 ноября\nЯпонская выставка мобильности 2026\nTokyo Big Sight (Токио, Япония)\nПодробнее\nот 41 329 ₽\n30 октября – 1 ноября\nFormula 1 Гран-при Мехико 2026\nАвтодром имени братьев Родригес (Мехико, Мексика)\nПодробнее\nот 59 470 ₽\n17 апреля – 19 апреля\nГонконг Севенс 2026\nСтадион Кай Так (Гонконг, Гонконг)\nПодробнее\nот 31 562 ₽\n17 апреля – 19 апреля\nAcura Grand Prix of Long Beach 2026\nУличная трасса Лонг-Бич (Лонг-Бич, США)\nПодробнее\nот 64 647 ₽\n17 апреля – 19 апреля\nГран-при Акура Лонг-Бич\nДаунтаун Лонг-Бич (Лонг-Бич, США)\nПодробнее\nот 64 647 ₽\n20 апреля\nБостонский марафон\nОт Хопкинтона до Бостона (Бостон, США)\nПодробнее\nот 61 562 ₽\n24 апреля – 26 апреля\nGT World Texas\nCircuit of The Americas (Остин, США)\nПодробнее\nот 64 734 ₽\n1 мая\nВелогонка Эшборн-Франкфурт\nУлицы Франкфурта (Франкфурт-на-Майне, Германия)\nПодробнее\nот 20 342 ₽\n13 мая – 17 мая\nThe Ferrari Challenge 2026\nCircuit of The Americas (Остин, США)\nПодробнее\nот 49 993 ₽\n15 мая – 17 мая\nМотоГран-при Каталонии\nАвтодром Барселона-Каталунья (Монтмело, Испания)\nПодробнее\nот 17 640 ₽\n15 мая – 17 мая\nMotoGP Catalunya 2026\nАвтодром Барселона-Каталунья (Монтмело, Испания)\nПодробнее\nот 17 640 ₽\n15 мая – 17 мая\nMotoGP Catalunya 2026\nГоночная трасса Барселона-Каталунья (Барселона, Испания)\nПодробнее\nот 17 640 ₽\n22 мая – 24 мая\nГран-при Испании Формулы-1 2026\nАвтодром Каталунья (Монтмело, Испания)\nПодробнее\nот 18 156 ₽\n24 мая\nЛима Марафон (Полумарафон)\nЛима (городские улицы) (Лима, Перу)\nПодробнее\nот 80 443 ₽\n8 июня\nМатч AFL в День Рождения Короля 2026\nМельбурнский Крикетный Стадион (MCG) (Мельбурн, Австралия)\nПодробнее\nот 45 544 ₽\nТакже рекомендуем посмотреть\nСтатьи блога о том, как сэкономить на билетах\nСмотреть все\n\nНаши авторы раскрывают секреты путешествий\n\nКуда поехать\nКуда поехать в 2026 году?\n\nКакие страны и города станут популярными в 2026 году у туристов\n\nЧитать статью\nCоветы путешественникам\nВсе способы сэкономить в путешествии\n\nКак сэкономить на путешествии: 25+ советов для бюджета\n\nЧитать статью\nНовости\nНовые правила въезда и получения виз в 2025 году\n\nКак изменились визовые требования и правила въезда в 2025 году\n\nЧитать статью\nБольше лазеек при поиске билетов\n\nТут можно найти свой способ выбрать лучший билет\n\nКомбинированные билеты из РЖД и авиа\n\nУ нас можно оформить поездку, где часть пути поездом, а часть — на самолёте.\n\nСпрятанный город\n\nИногда билет с пересадкой в нужном городе обходится дешевле, чем прямой перелёт туда.\n\nСмарт-маршруты\n\nНеочевидные маршруты из нескольких рейсов разных авиакомпаний. Так можно выбрать лучшие предложения на каждом сегменте и сэкономить.\n\nЗеркальный билет\n\nАвиакомпании часто продают билеты туда-обратно дешевле, чем в один конец. Можно просто не использовать обратный.\n\nИнформация о визах\n\nПоможем разобраться, когда нужна виза, а когда достаточно обычного паспорта.\n\nСтоповеры\n\nНекоторые авиакомпании предлагают сделать пересадку и оплачивают отель на время ожидания. Можно провести день в новом месте без лишних затрат.\n\nУстановите приложение с информацией о перелётах даже без интернета\n\nОтсканируйте QR-код камерой телефона, чтобы скачать\nприложение, или нажмите сюда, чтобы скопировать ссылку\n\n4.5\nРассылка с выгодными предложениями\n\nЭксклюзивные акции, лучшие лайфхаки, заботливые рекомендации от экспертов Купибилета\n\nПодписаться\n\nСервис билетных лазеек\n\nКликни сюда\nКомпания\nГлавное о Купибилете\nКонтакты\nПресс-центр\nПартнерская программа\nПомощь\nБаза знаний\nГде мой билет\nБлог\nИнформация\nАкции и распродажи\nБезопасность\nКонфиденциальность\nОферта\nВажные ответы\nОформление и покупка\nВозврат и обмен\nВсе вопросы и ответы\n\n© 2011–2026 Купибилет\n\nДешевые билеты на самолет и поезд, бронирование и онлайн-заказ\n\nЖ/Д билеты предоставляются партнёрами, в том числе с использованием веб-системы ООО «РЖД – Цифровые пассажирские решения» на основании договора № ЦПР-1282 от 04.04.2024 заключенного с Поставщиком услуг и Договора ООО «РЖД-Цифровые пассажирские решения» с АО «ФПК» № ФПК-22-316 от 27.12.2022 г. Сайт не является официальным ресурсом ОАО «РЖД». Стоимость билетов включает сервисный сбор. Итоговая цена отображена на экране подтверждения покупки. По вопросам рассмотрения обращений, жалоб, претензий граждан о возмещении убытков просим обращаться в Службу Заботы.\n\nДля вашего удобства мы используем cookies. Подробнее\nСогласен"
+}

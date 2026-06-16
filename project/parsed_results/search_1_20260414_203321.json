@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-04-14T20:33:17.453579+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "Санкт-Петербург",
+    "anywhere": true,
+    "date": "2026-04-16",
+    "return_date": null,
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": null,
+    "kupibilet_hot_offer": true
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|LED|BQS|2026-04-16T17:40:00+00:00|12657|https://www.kupibilet.ru/mbooking/step0/Y10016APRLEDBQS/4f25ad4e7c004a5a9d21db41077b2d7b247?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "origin": "Санкт-Петербург",
+      "destination": "Благовещенск",
+      "origin_airport": "Санкт-Петербург",
+      "destination_airport": "Благовещенск",
+      "origin_code": "LED",
+      "destination_code": "BQS",
+      "price": 12657,
+      "airline": "S7",
+      "departure_at": "2026-04-16T17:40:00+00:00",
+      "transfers": 1,
+      "link": "https://www.kupibilet.ru/mbooking/step0/Y10016APRLEDBQS/4f25ad4e7c004a5a9d21db41077b2d7b247?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "source": "Kupibilet",
+      "updated_at": "2026-04-14T20:33:17.449557+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": 20415,
+      "hot_discount_percent": 38,
+      "hot_expires_at": "2026-04-14T22:56:59.450554+00:00",
+      "special_offer_label": "−38% ∙ 2:23:42"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "server_time": "2026-03-19T07:02:19.654466+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "REN - MOW",
+    "anywhere": false,
+    "date": "2026-03-19",
+    "return_date": null,
+    "price_from": 3000,
+    "price_to": 8000,
+    "airline_code": null,
+    "source": "aviasales",
+    "limit": null
+  },
+  "tickets": []
+}

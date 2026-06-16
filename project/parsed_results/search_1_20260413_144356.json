@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-04-13T14:43:55.901818+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "REN - AER",
+    "anywhere": false,
+    "date": "2026-04-14",
+    "return_date": null,
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": null,
+    "kupibilet_hot_offer": true
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|REN|AER|2026-04-14T23:00:00+05:00|14981|https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:REN_2026-04-14_date_2026-04-14_iatax:AER&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "origin": "Оренбург",
+      "destination": "Сочи",
+      "origin_airport": "Оренбург",
+      "destination_airport": "Шереметьево",
+      "origin_code": "REN",
+      "destination_code": "AER",
+      "price": 14981,
+      "airline": "SU",
+      "departure_at": "2026-04-14T23:00:00+05:00",
+      "transfers": 1,
+      "link": "https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:REN_2026-04-14_date_2026-04-14_iatax:AER&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "source": "Kupibilet",
+      "updated_at": "2026-04-13T14:43:55.900821+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": null,
+      "hot_discount_percent": null,
+      "hot_expires_at": "",
+      "special_offer_label": ""
+    }
+  ]
+}

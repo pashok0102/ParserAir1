@@ -1,0 +1,35 @@
+{
+  "server_time": "2026-03-23T08:51:22.944888+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "REN",
+    "anywhere": true,
+    "date": "2026-03-24",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 12000,
+    "airline_code": null,
+    "source": "aviasales",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Aviasales|REN|MOW|2026-03-24T20:10:00+05:00|8621|https://www.aviasales.ru/search/REN2403MOW1",
+      "origin": "Оренбург",
+      "destination": "Москва",
+      "origin_airport": "Оренбург",
+      "destination_airport": "Шереметьево",
+      "origin_code": "REN",
+      "destination_code": "MOW",
+      "price": 8621,
+      "airline": "N4",
+      "departure_at": "2026-03-24T20:10:00+05:00",
+      "transfers": 0,
+      "link": "https://www.aviasales.ru/search/REN2403MOW1",
+      "source": "Aviasales",
+      "updated_at": "2026-03-23T08:51:22.939900+00:00",
+      "is_favorite": false,
+      "estimated_price": true
+    }
+  ]
+}

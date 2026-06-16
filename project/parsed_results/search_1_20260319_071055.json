@@ -1,0 +1,35 @@
+{
+  "server_time": "2026-03-19T07:10:52.586765+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "REN - MOW",
+    "anywhere": false,
+    "date": "2026-03-19",
+    "return_date": null,
+    "price_from": 3000,
+    "price_to": 11999,
+    "airline_code": null,
+    "source": "aviasales",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Aviasales|REN|MOW|2026-03-19T21:50:00+05:00|8879|https://www.aviasales.ru/search/REN1903MOW1?t=N417739570001774037100001455RENLEDSVO_1952689e9fe6b435e8ffcb036be6c5f9_8879&search_date=19032026&expected_price_uuid=019d047e-63ea-8030-28c6-35d1484565f3&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=8879",
+      "origin": "Оренбург",
+      "destination": "Москва",
+      "origin_airport": "Оренбург",
+      "destination_airport": "Шереметьево",
+      "origin_code": "REN",
+      "destination_code": "MOW",
+      "price": 8879,
+      "airline": "N4",
+      "departure_at": "2026-03-19T21:50:00+05:00",
+      "transfers": 1,
+      "link": "https://www.aviasales.ru/search/REN1903MOW1?t=N417739570001774037100001455RENLEDSVO_1952689e9fe6b435e8ffcb036be6c5f9_8879&search_date=19032026&expected_price_uuid=019d047e-63ea-8030-28c6-35d1484565f3&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=8879",
+      "source": "Aviasales",
+      "updated_at": "2026-03-19T07:10:52.586261+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    }
+  ]
+}

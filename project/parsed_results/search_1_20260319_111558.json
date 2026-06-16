@@ -1,0 +1,35 @@
+{
+  "server_time": "2026-03-19T11:15:56.523480+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW - AER",
+    "anywhere": false,
+    "date": "2026-03-20",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 14999,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|MOW|AER|2026-03-20T00:00:00+00:00|6454|https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:MOW_2026-03-20_date_2026-03-20_iatax:AER&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 6454,
+      "airline": "DP",
+      "departure_at": "2026-03-20T00:00:00+00:00",
+      "transfers": 0,
+      "link": "https://www.kupibilet.ru/search?adult=1&cabinClass=Y&child=0&childrenAges=[]&infant=0&route[0]=iatax:MOW_2026-03-20_date_2026-03-20_iatax:AER&v=2&filter=%7B%22transportKind%22:%7B%22Airplane%22:true%7D%7D",
+      "source": "Kupibilet",
+      "updated_at": "2026-03-19T11:15:56.522487+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "server_time": "2026-03-19T08:30:25.563790+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MSQ - AER",
+    "anywhere": false,
+    "date": "2026-03-20",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 19990,
+    "airline_code": null,
+    "source": "aviasales",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Aviasales|MSQ|AER|2026-03-20T08:00:00+03:00|10794|https://www.aviasales.ru/search/MSQ2003AER1?t=R317739936001774093200001660MSQSVOVKOAER_6b961bca0d3378dd7116e90fdb151927_10601&search_date=18032026&expected_price_uuid=019cfeae-d477-8030-a602-1b543fcb871f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=10794",
+      "origin": "Минск",
+      "destination": "Сочи",
+      "origin_airport": "Минск",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MSQ",
+      "destination_code": "AER",
+      "price": 10794,
+      "airline": "SU",
+      "departure_at": "2026-03-20T08:00:00+03:00",
+      "transfers": 1,
+      "link": "https://www.aviasales.ru/search/MSQ2003AER1?t=R317739936001774093200001660MSQSVOVKOAER_6b961bca0d3378dd7116e90fdb151927_10601&search_date=18032026&expected_price_uuid=019cfeae-d477-8030-a602-1b543fcb871f&static_fare_key=TY%7CP0%7CH1%7CL0%7CCH1%7CR0%7CTBC0&expected_price_source=share&expected_price_currency=rub&expected_price=10794",
+      "source": "Aviasales",
+      "updated_at": "2026-03-19T08:30:25.563287+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    }
+  ]
+}

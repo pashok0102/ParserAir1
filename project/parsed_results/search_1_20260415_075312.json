@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-04-15T07:53:09.541302+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW",
+    "anywhere": true,
+    "date": "2026-04-16",
+    "return_date": null,
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": null,
+    "kupibilet_hot_offer": true
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|MOW|MLA|2026-04-15T22:45:00+00:00|34227|https://www.kupibilet.ru/mbooking/step0/Y10016APRMOWMLA/e1284cac90534f52aee56b4050391f69119?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "origin": "Москва",
+      "destination": "Мальта",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Мальта",
+      "origin_code": "MOW",
+      "destination_code": "MLA",
+      "price": 34227,
+      "airline": "VF",
+      "departure_at": "2026-04-15T22:45:00+00:00",
+      "transfers": 1,
+      "link": "https://www.kupibilet.ru/mbooking/step0/Y10016APRMOWMLA/e1284cac90534f52aee56b4050391f69119?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "source": "Kupibilet",
+      "updated_at": "2026-04-15T07:53:09.529333+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": 72823,
+      "hot_discount_percent": 53,
+      "hot_expires_at": "2026-04-15T08:42:55.531327+00:00",
+      "special_offer_label": "−53% ∙ 0:49:46"
+    }
+  ]
+}

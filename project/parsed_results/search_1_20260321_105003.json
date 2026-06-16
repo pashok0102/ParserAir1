@@ -1,0 +1,53 @@
+{
+  "server_time": "2026-03-21T10:50:03.898380+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW - AER",
+    "anywhere": false,
+    "date": "2026-03-22",
+    "return_date": "2026-03-23",
+    "price_from": 0,
+    "price_to": 15000,
+    "airline_code": null,
+    "source": "tutu",
+    "limit": null
+  },
+  "tickets": [
+    {
+      "ticket_key": "Tutu.ru|MOW|AER|2026-03-22T00:00:00+00:00|3654|https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&passengers=100&route[0]=491-22032026-78&travelers=1",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 3654,
+      "airline": "DP",
+      "departure_at": "2026-03-22T00:00:00+00:00",
+      "transfers": 0,
+      "link": "https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&passengers=100&route[0]=491-22032026-78&travelers=1",
+      "source": "Tutu.ru",
+      "updated_at": "2026-03-21T10:48:22.068922+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    },
+    {
+      "ticket_key": "Tutu.ru|MOW|AER|2026-03-23T00:00:00+00:00|3154|https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&passengers=100&route[0]=491-23032026-78&travelers=1",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 3154,
+      "airline": "DP",
+      "departure_at": "2026-03-23T00:00:00+00:00",
+      "transfers": 0,
+      "link": "https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&passengers=100&route[0]=491-23032026-78&travelers=1",
+      "source": "Tutu.ru",
+      "updated_at": "2026-03-21T10:50:03.896385+00:00",
+      "is_favorite": false,
+      "estimated_price": false
+    }
+  ]
+}

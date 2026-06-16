@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-04-14T15:57:47.148657+00:00",
+  "user_id": 1,
+  "search": {
+    "route": "MOW",
+    "anywhere": true,
+    "date": "2026-04-15",
+    "return_date": null,
+    "price_from": null,
+    "price_to": null,
+    "airline_code": null,
+    "source": "kupibilet",
+    "limit": null,
+    "kupibilet_hot_offer": true
+  },
+  "tickets": [
+    {
+      "ticket_key": "Kupibilet|MOW|KHI|2026-04-15T07:50:00+00:00|26479|https://www.kupibilet.ru/mbooking/step0/Y10015APRMOWKHI/ea11bc0058954e40b349b8e0d1b10241183?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "origin": "Москва",
+      "destination": "Карачи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Карачи",
+      "origin_code": "MOW",
+      "destination_code": "KHI",
+      "price": 26479,
+      "airline": "EY",
+      "departure_at": "2026-04-15T07:50:00+00:00",
+      "transfers": 1,
+      "link": "https://www.kupibilet.ru/mbooking/step0/Y10015APRMOWKHI/ea11bc0058954e40b349b8e0d1b10241183?currency=RUB&from_iss=true&apply_traffic_id=false",
+      "source": "Kupibilet",
+      "updated_at": "2026-04-14T15:57:47.145713+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": 38375,
+      "hot_discount_percent": 31,
+      "hot_expires_at": "2026-04-14T17:13:23.146714+00:00",
+      "special_offer_label": "−31% ∙ 1:15:36"
+    }
+  ]
+}

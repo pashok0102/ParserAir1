@@ -1,0 +1,526 @@
+{
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Город вылета Оренбург",
+      "cls": "DirectionChips_fixedTrigger__kSG4k",
+      "href": ""
+    },
+    {
+      "i": 5,
+      "text": "₽, RUB",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 IntlToggler_button__DJZBm IntlToggler_forNormalPage__mFZ40",
+      "href": ""
+    },
+    {
+      "i": 7,
+      "text": "Войти",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 HeaderAuth_loginButtonDesktop__ozflr UserDropdown_userDropdown__88t8e",
+      "href": ""
+    },
+    {
+      "i": 8,
+      "text": "Оренбург",
+      "cls": "DirectionChips_triggerText__9f8d0",
+      "href": ""
+    },
+    {
+      "i": 11,
+      "text": "Леса",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 12,
+      "text": "Охота",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 13,
+      "text": "Реки и озера",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 14,
+      "text": "Рыбалка",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 15,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": ""
+    },
+    {
+      "i": 16,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": ""
+    },
+    {
+      "i": 17,
+      "text": "На карте",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": ""
+    },
+    {
+      "i": 18,
+      "text": "О городе",
+      "cls": "TicketCardFooterWithImage_actionButton___URI_",
+      "href": ""
+    },
+    {
+      "i": 21,
+      "text": "Перейти на карту цен",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 Mapbox_button__V9XUS",
+      "href": "https://kupibilet.ru/price-map"
+    },
+    {
+      "i": 26,
+      "text": "© Mapbox",
+      "cls": "",
+      "href": "https://www.mapbox.com/about/maps"
+    },
+    {
+      "i": 27,
+      "text": "© OpenStreetMap",
+      "cls": "",
+      "href": "https://www.openstreetmap.org/copyright/"
+    },
+    {
+      "i": 28,
+      "text": "Improve this map",
+      "cls": "mapbox-improve-map",
+      "href": "https://apps.mapbox.com/feedback/?owner=randalrains&id=cma3zyztu002601r4338x9tm8&access_token=pk.eyJ1IjoicmFuZGFscmFpbnMiLCJhIjoiY205ODZuNTF1MGR6MjJtc2Jmc3hiZnVxMiJ9.0Xgsvu8zIAeohWhoTuNEJQ#/30.19/59.557/6"
+    },
+    {
+      "i": 34,
+      "text": "Город",
+      "cls": "DirectionChips_trigger__CAR1S",
+      "href": ""
+    },
+    {
+      "i": 35,
+      "text": "Концерты",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 36,
+      "text": "Спорт",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 37,
+      "text": "Фестивали",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 38,
+      "text": "Кино",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 39,
+      "text": "Выставки",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 40,
+      "text": "Шоу",
+      "cls": "_tag_1agn2_32 _primary_1agn2_47",
+      "href": ""
+    },
+    {
+      "i": 41,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 42,
+      "text": "от 33 873 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 43,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 44,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 45,
+      "text": "от 60 826 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 46,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 47,
+      "text": "от 22 723 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 48,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 49,
+      "text": "от 28 819 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 50,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 51,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 52,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 53,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 54,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 55,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 56,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 57,
+      "text": "от 44 168 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 58,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 59,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 60,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 61,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 62,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 63,
+      "text": "от 30 745 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 64,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 65,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 66,
+      "text": "от 27 418 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 67,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 68,
+      "text": "от 27 418 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 69,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 70,
+      "text": "от 27 418 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 71,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 72,
+      "text": "от 22 723 ₽",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 EventsCard_priceButton__GQ9cn",
+      "href": ""
+    },
+    {
+      "i": 73,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 74,
+      "text": "Подробнее",
+      "cls": "_secondary_1y9iu_51 _sizeSmall_1y9iu_317 EventsCard_detailsButton__4kw86",
+      "href": ""
+    },
+    {
+      "i": 75,
+      "text": "Смотреть все",
+      "cls": "_link_1y9iu_151 _sizeLink_1y9iu_370",
+      "href": "https://www.kupibilet.ru/events?departureCity=REN"
+    },
+    {
+      "i": 76,
+      "text": "Смотреть все",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 BlogContent_blogButton__JPBBT",
+      "href": "https://www.kupibilet.ru/blog"
+    },
+    {
+      "i": 77,
+      "text": "Читать статью",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 BlogCard_button__ac6Z9",
+      "href": ""
+    },
+    {
+      "i": 78,
+      "text": "Читать статью",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 BlogCard_button__ac6Z9",
+      "href": ""
+    },
+    {
+      "i": 79,
+      "text": "Читать статью",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 BlogCard_button__ac6Z9",
+      "href": ""
+    },
+    {
+      "i": 80,
+      "text": "Комбинированные билеты из РЖД и авиа\n\nУ нас можно оформить поездку, где часть пути поездом, а часть — на самолёте.",
+      "cls": "LazeykiCard_card___mety",
+      "href": ""
+    },
+    {
+      "i": 81,
+      "text": "Спрятанный город\n\nИногда билет с пересадкой в нужном городе обходится дешевле, чем прямой перелёт туда.",
+      "cls": "LazeykiCard_card___mety",
+      "href": ""
+    },
+    {
+      "i": 82,
+      "text": "Смарт-маршруты\n\nНеочевидные маршруты из нескольких рейсов разных авиакомпаний. Так можно выбрать лучшие предложения на каждом сегменте и сэкономить.",
+      "cls": "LazeykiCard_card___mety",
+      "href": ""
+    },
+    {
+      "i": 83,
+      "text": "Зеркальный билет\n\nАвиакомпании часто продают билеты туда-обратно дешевле, чем в один конец. Можно просто не использовать обратный.",
+      "cls": "LazeykiCard_card___mety",
+      "href": ""
+    },
+    {
+      "i": 84,
+      "text": "Информация о визах\n\nПоможем разобраться, когда нужна виза, а когда достаточно обычного паспорта.",
+      "cls": "LazeykiCard_card___mety",
+      "href": ""
+    },
+    {
+      "i": 85,
+      "text": "Стоповеры\n\nНекоторые авиакомпании предлагают сделать пересадку и оплачивают отель на время ожидания. Можно провести день в новом месте без лишних затрат.",
+      "cls": "LazeykiCard_card___mety",
+      "href": ""
+    },
+    {
+      "i": 86,
+      "text": "Скачать приложение",
+      "cls": "_secondary_1y9iu_51 _sizeDefault_1y9iu_365 ApplicationBanner_platformButton__k1VT0",
+      "href": ""
+    },
+    {
+      "i": 87,
+      "text": "нажмите сюда, чтобы скопировать ссылку",
+      "cls": "ApplicationBanner_clipboardLink__In9zz",
+      "href": ""
+    },
+    {
+      "i": 91,
+      "text": "Подписаться",
+      "cls": "_primary_1y9iu_17 _sizeDefault_1y9iu_365 SubscriptionForm_button__Kbjgc _fullWidth_1y9iu_402",
+      "href": ""
+    },
+    {
+      "i": 96,
+      "text": "Главное о Купибилете",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/about"
+    },
+    {
+      "i": 97,
+      "text": "Контакты",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/contacts"
+    },
+    {
+      "i": 98,
+      "text": "Пресс-центр",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/press"
+    },
+    {
+      "i": 99,
+      "text": "Партнерская программа",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://cpa.kupibilet.ru/"
+    },
+    {
+      "i": 100,
+      "text": "База знаний",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/help"
+    },
+    {
+      "i": 101,
+      "text": "Где мой билет",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/download-documents"
+    },
+    {
+      "i": 102,
+      "text": "Блог",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/blog"
+    },
+    {
+      "i": 103,
+      "text": "Акции и распродажи",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/sales?departureCity=REN"
+    },
+    {
+      "i": 104,
+      "text": "Безопасность",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/payment-security"
+    },
+    {
+      "i": 105,
+      "text": "Конфиденциальность",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/confidential"
+    },
+    {
+      "i": 106,
+      "text": "Оферта",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/agreement"
+    },
+    {
+      "i": 107,
+      "text": "Оформление и покупка",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/help/oformlenie-i-pokupka-aviabiletov"
+    },
+    {
+      "i": 108,
+      "text": "Возврат и обмен",
+      "cls": "FooterModalLink_modalLink__HVn4x",
+      "href": "https://www.kupibilet.ru/refund"
+    },
+    {
+      "i": 109,
+      "text": "Все вопросы и ответы",
+      "cls": "Footer_link__G9M6S",
+      "href": "https://www.kupibilet.ru/help"
+    },
+    {
+      "i": 113,
+      "text": "Подробнее",
+      "cls": "_link_1y9iu_151 _sizeText_1y9iu_394 CookiesAgreement_moreDetailsButton__laOFy",
+      "href": ""
+    },
+    {
+      "i": 114,
+      "text": "Согласен",
+      "cls": "_primary_1y9iu_17 _sizeSmall_1y9iu_317 CookiesAgreement_btn__cLn8t",
+      "href": ""
+    }
+  ]
+}

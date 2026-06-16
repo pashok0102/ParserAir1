@@ -1,0 +1,53 @@
+export const API_BASE_URL =
+  process.env.EXPO_PUBLIC_API_BASE_URL?.trim() || 'http://localhost:8000/api';
+
+export const APP_TITLE = 'AirParser Mobile';
+
+export const themes = {
+  light: {
+    background: '#dfeaf8',
+    surface: '#ffffff',
+    surfaceMuted: '#f9fbff',
+    text: '#173057',
+    muted: '#7a96bc',
+    border: '#bdd3f1',
+    primary: '#2f72d7',
+    primaryText: '#ffffff',
+    secondaryText: '#234a81',
+    overlay: 'rgba(13, 28, 53, 0.48)',
+    input: '#ffffff',
+    inputDisabled: '#eef4ff',
+    note: '#edf5ff',
+    noteBorder: '#c6daf6',
+    hotBadge: '#fff1ea',
+    hotBadgeBorder: '#f2b79d',
+    hotBadgeText: '#e25f28',
+    chip: '#ffffff',
+    chipActive: '#dcebff',
+    chipText: '#2f4e7b',
+    chipTextActive: '#2f72d7',
+  },
+  dark: {
+    background: '#08111f',
+    surface: '#0c1728',
+    surfaceMuted: '#101d31',
+    text: '#edf4ff',
+    muted: '#a9bddc',
+    border: '#2e4668',
+    primary: '#1b66b3',
+    primaryText: '#ffffff',
+    secondaryText: '#edf4ff',
+    overlay: 'rgba(2, 8, 18, 0.68)',
+    input: '#091624',
+    inputDisabled: '#122131',
+    note: '#13233a',
+    noteBorder: '#2f486a',
+    hotBadge: '#552617',
+    hotBadgeBorder: '#9b5235',
+    hotBadgeText: '#ffd8cf',
+    chip: '#13233a',
+    chipActive: '#1a4f8e',
+    chipText: '#dbe8fb',
+    chipTextActive: '#ffffff',
+  },
+};
