@@ -1,0 +1,41 @@
+{
+  "server_time": "2026-06-17T11:27:36.936931+00:00",
+  "user_id": 3,
+  "search": {
+    "route": "MOW - AER",
+    "anywhere": false,
+    "date": "2026-06-18",
+    "return_date": null,
+    "price_from": 0,
+    "price_to": 140000,
+    "airline_code": null,
+    "source": "tutu",
+    "limit": null,
+    "kupibilet_hot_offer": false
+  },
+  "tickets": [
+    {
+      "ticket_key": "Tutu.ru|MOW|AER|2026-06-18T06:00:00+03:00|3171|https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&travelers=1&route[0]=491-18062026-78",
+      "origin": "Москва",
+      "destination": "Сочи",
+      "origin_airport": "Шереметьево",
+      "destination_airport": "Шереметьево",
+      "origin_code": "MOW",
+      "destination_code": "AER",
+      "price": 3171,
+      "airline": "SU",
+      "departure_at": "2026-06-18T06:00:00+03:00",
+      "transfers": 1,
+      "link": "https://avia.tutu.ru/f/Moskva/Sochi/?class=Y&travelers=1&route[0]=491-18062026-78",
+      "source": "Tutu.ru",
+      "updated_at": "2026-06-17T11:27:36.932902+00:00",
+      "is_favorite": false,
+      "estimated_price": false,
+      "baggage_info": "",
+      "original_price": null,
+      "hot_discount_percent": null,
+      "hot_expires_at": "",
+      "special_offer_label": ""
+    }
+  ]
+}

@@ -282,7 +282,13 @@ def extract_rendered_kupibilet_special_cards(
         page.wait_for_timeout(max(3000, timeout_ms // 10))
 
         text = page.inner_text("body")
+        import datetime as _dt
+        _ts = _dt.datetime.now().strftime("%Y%m%d_%H%M%S")
+        with open(f"/tmp/kupibilet_debug_{_ts}.txt", "w", encoding="utf-8") as _f:
+            _f.write(text)
+        print(f"[KUPIBILET DEBUG] Page length: {len(text)}, saved to /tmp/kupibilet_debug_{_ts}.txt")
         if not text or len(text) < 200:
+            print(f"[KUPIBILET DEBUG] Text too short ({len(text)}), aborting")
             return []
 
         # Extract JSON-LD Flight data for booking links and structured info
@@ -367,6 +373,7 @@ def extract_rendered_kupibilet_special_cards(
         if current:
             blocks.append(current)
 
+        print(f"[KUPIBILET DEBUG] Start_idx={start_idx}, end_idx={end_idx}, blocks={len(blocks)}")
         # Parse each block into a card
         for block in blocks:
             block_text = "\n".join(block)
@@ -433,11 +440,18 @@ def extract_rendered_kupibilet_special_cards(
                     "tag_text": tag_text,
                 })
 
+        timers_count = sum(1 for c in cards if c.get("tag_text"))
+        print(f"[KUPIBILET DEBUG] Cards found: {len(cards)}, with timer: {timers_count}")
+        if cards and timers_count == 0:
+            for i, c in enumerate(cards[:3]):
+                print(f"[KUPIBILET DEBUG] Card {i} sample: {c.get('text', '')[:200]}")
+                print(f"[KUPIBILET DEBUG] Card {i} tag_text: '{c.get('tag_text', '')}'")
         if limit and len(cards) > limit:
             cards = cards[:limit]
 
         return cards
-    except Exception:
+    except Exception as _e:
+        print(f"[KUPIBILET DEBUG] Exception: {_e}")
         return cards
     finally:
         try:

@@ -973,6 +973,7 @@
 
 .search-button {
   grid-column: span 12;
+  width: 100%;
   min-height: 62px;
   border: none;
   border-radius: 22px;
@@ -1358,7 +1359,7 @@
 .result-price-stack { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
 .result-price-old { font-size: 0.92rem; font-weight: 700; color: #7d8ea8; text-decoration: line-through; }
 .result-price { font-size: 1.2rem; font-weight: 900; color: #0f2140; }
-.result-price.estimated { font-size: 0.95rem; font-weight: 800; color: #46678f; }
+.result-price.estimated { font-size: 1.2rem; font-weight: 900; color: #0f2140; }
 .hot-offer-chip {
   display: inline-flex;
   align-items: center;
@@ -1743,7 +1744,7 @@
 }
 
 .theme-dark .result-price.estimated {
-  color: #d9e8ff;
+  color: #e8f1ff;
 }
 
 .theme-dark .result-price-old {

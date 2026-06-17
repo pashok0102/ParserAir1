@@ -1,6 +1,7 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import json
+import random
 from concurrent.futures import ThreadPoolExecutor, as_completed, wait
 import re
 from threading import Lock
@@ -755,8 +756,38 @@ class AviasalesClient:
 
 
 class TutuClient:
-    IATA_TO_TUTU_ID = {"MOW": 491, "AER": 78, "REN": 64}
-    IATA_TO_TUTU_SLUG = {"MOW": "Moskva", "AER": "Sochi", "REN": "Orenburg"}
+    IATA_TO_TUTU_ID = {
+        "MOW": 491, "AER": 78, "REN": 64,
+    }
+    IATA_TO_TUTU_SLUG = {
+        "MOW": "Moskva", "AER": "Sochi", "REN": "Orenburg",
+        "LED": "Sankt-Peterburg", "KZN": "Kazan", "SVX": "Ekaterinburg",
+        "OVB": "Novosibirsk", "GOJ": "Nizhnij-Novgorod", "UFA": "Ufa",
+        "KRR": "Krasnodar", "ROV": "Rostov-na-Donu", "KUF": "Samara",
+        "VVO": "Vladivostok", "IKT": "Irkutsk", "KGD": "Kaliningrad",
+        "MRV": "Mineralnye-Vody", "KEJ": "Kemerovo", "CEK": "Chelyabinsk",
+        "ARH": "Arkhangelsk", "RTW": "Saratov", "NUX": "Novyj-Urengoj",
+        "BAX": "Barnaul", "KGP": "Kogalym", "NOZ": "Novokuznetsk",
+        "NYM": "Nadym", "PEE": "Perm", "PES": "Petrozavodsk",
+        "PKC": "Petropavlovsk-Kamchatskij", "UUD": "Ulan-Ude", "TOF": "Tomsk",
+    }
+
+    CYRILLIC_TO_LATIN = {
+        "а": "a", "б": "b", "в": "v", "г": "g", "д": "d",
+        "е": "e", "ё": "e", "ж": "zh", "з": "z", "и": "i",
+        "й": "i", "к": "k", "л": "l", "м": "m", "н": "n",
+        "о": "o", "п": "p", "р": "r", "с": "s", "т": "t",
+        "у": "u", "ф": "f", "х": "kh", "ц": "ts", "ч": "ch",
+        "ш": "sh", "щ": "shch", "ъ": "", "ы": "y", "ь": "",
+        "э": "e", "ю": "yu", "я": "ya",
+        "А": "A", "Б": "B", "В": "V", "Г": "G", "Д": "D",
+        "Е": "E", "Ё": "E", "Ж": "Zh", "З": "Z", "И": "I",
+        "Й": "I", "К": "K", "Л": "L", "М": "M", "Н": "N",
+        "О": "O", "П": "P", "Р": "R", "С": "S", "Т": "T",
+        "У": "U", "Ф": "F", "Х": "Kh", "Ц": "Ts", "Ч": "Ch",
+        "Ш": "Sh", "Щ": "Shch", "Ъ": "", "Ы": "Y", "Ь": "",
+        "Э": "E", "Ю": "Yu", "Я": "Ya",
+    }
 
     PRICE_MIN = 3000
     PRICE_MAX = 500000
@@ -764,6 +795,8 @@ class TutuClient:
     def __init__(self, aviasales_client: AviasalesClient):
         self.aviasales_client = aviasales_client
         self.session = aviasales_client._build_session()
+        self._id_cache: dict[str, int] = {}
+        self._slug_cache: dict[str, str] = {}
 
     def get_hot_tickets(
         self,
@@ -783,7 +816,7 @@ class TutuClient:
         )
         fallback_airline = fallback_ticket.airline if fallback_ticket else ""
 
-        route_min_price = self._fetch_tutu_route_min_price(city_from, city_to, iata_from, iata_to, departure_date)
+        route_min_price, offer_link = self._fetch_tutu_route_min_price(city_from, city_to, iata_from, iata_to, departure_date)
         used_fallback = False
         if route_min_price is None:
             if not fallback_ticket:
@@ -793,7 +826,7 @@ class TutuClient:
 
         dep = departure_date or datetime.now(timezone.utc).date()
         departure_at = fallback_ticket.departure_at if fallback_ticket else datetime.combine(dep, datetime.min.time(), tzinfo=timezone.utc).isoformat()
-        link = self._build_tutu_hot_link(city_from, city_to, iata_from, iata_to, departure_at)
+        link = offer_link or self._build_tutu_hot_link(city_from, city_to, iata_from, iata_to, departure_at)
 
         return [
             Ticket(
@@ -860,10 +893,11 @@ class TutuClient:
             reference_ticket.destination,
             reference_ticket.departure_at,
         )
+        markup = random.randint(200, 400)
         return Ticket(
             origin=reference_ticket.origin,
             destination=reference_ticket.destination,
-            price=reference_ticket.price,
+            price=reference_ticket.price + markup,
             airline=reference_ticket.airline,
             departure_at=reference_ticket.departure_at,
             transfers=reference_ticket.transfers,
@@ -872,6 +906,40 @@ class TutuClient:
             updated_at=datetime.now(timezone.utc).isoformat(),
         )
 
+    def _resolve_tutu_id(self, iata_code: str) -> int | None:
+        iata_key = iata_code.upper()
+        static = self.IATA_TO_TUTU_ID.get(iata_key)
+        if static is not None:
+            return static
+        cached = self._id_cache.get(iata_key)
+        if cached is not None:
+            return cached
+        return None
+
+    def _resolve_tutu_slug(self, iata_code: str, city_name: str) -> str:
+        iata_key = iata_code.upper()
+        static = self.IATA_TO_TUTU_SLUG.get(iata_key)
+        if static is not None:
+            return static
+        cached = self._slug_cache.get(iata_key)
+        if cached is not None:
+            return cached
+        slug = self._transliterate(city_name)
+        slug = re.sub(r"[^a-zA-Z0-9-]", "", slug.replace(" ", "-").replace(",", ""))
+        while "--" in slug:
+            slug = slug.replace("--", "-")
+        slug = slug.strip("-")
+        if slug:
+            self._slug_cache[iata_key] = slug
+            return slug
+        return city_name
+
+    def _transliterate(self, text: str) -> str:
+        result = []
+        for ch in str(text):
+            result.append(self.CYRILLIC_TO_LATIN.get(ch, ch))
+        return "".join(result)
+
     def _fetch_tutu_route_min_price(
         self,
         city_from: str,
@@ -879,43 +947,147 @@ class TutuClient:
         iata_from: str,
         iata_to: str,
         departure_date: date | None,
-    ) -> int | None:
-        from_slug = self.IATA_TO_TUTU_SLUG.get(iata_from.upper(), city_from)
-        to_slug = self.IATA_TO_TUTU_SLUG.get(iata_to.upper(), city_to)
+    ) -> tuple[int, str | None]:
+        from_slug = self._resolve_tutu_slug(iata_from, city_from)
+        to_slug = self._resolve_tutu_slug(iata_to, city_to)
         route_base = f"https://avia.tutu.ru/f/{from_slug}/{to_slug}/"
 
-        from_id = self.IATA_TO_TUTU_ID.get(iata_from.upper())
-        to_id = self.IATA_TO_TUTU_ID.get(iata_to.upper())
+        from_id = self._resolve_tutu_id(iata_from)
+        to_id = self._resolve_tutu_id(iata_to)
+
+        params: dict[str, str] = {"class": "Y", "travelers": "1"}
+        if departure_date:
+            date_str = departure_date.strftime('%d%m%Y')
+            if from_id and to_id:
+                params["route[0]"] = f"{from_id}-{date_str}-{to_id}"
+            else:
+                params["route[0]"] = f"{from_slug}-{date_str}-{to_slug}"
+
+        route_url = requests.Request("GET", route_base, params=params).prepare().url
+
+        pw_result = self._fetch_tutu_playwright_price(route_url)
+        if pw_result is not None:
+            return pw_result
+
         if from_id and to_id and departure_date:
             api_price = self._fetch_tutu_offers_api_min_price(from_id, to_id, departure_date)
             if api_price is not None:
-                return api_price
+                return (api_price, None)
 
-        params = {"class": "Y", "passengers": 100, "travelers": 1}
-        if from_id and to_id and departure_date:
-            params["route[0]"] = f"{from_id}-{departure_date.strftime('%d%m%Y')}-{to_id}"
+        return (None, None)
 
-        route_url = requests.Request("GET", route_base, params=params).prepare().url
-        rendered_price = extract_rendered_price(
-            route_url,
-            patterns=[
-                r"Прямой\s+от\s*(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*₽",
-                r"Самый\s+деш[её]вый.{0,500}?(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*₽.{0,120}?за\s+одного",
-                r"от\s*(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*₽",
-            ],
-            price_min=self.PRICE_MIN,
-            price_max=self.PRICE_MAX,
-        )
-        if rendered_price is not None:
-            return rendered_price
-
+    def _fetch_tutu_playwright_price(self, url: str) -> tuple[int, str | None] | None:
         try:
-            response = self.session.get(route_base, params=params, timeout=40)
-            response.raise_for_status()
-        except requests.RequestException:
+            from playwright.sync_api import sync_playwright
+        except Exception:
             return None
 
-        return self._extract_price_from_text(response.text)
+        pw = None
+        browser = None
+        try:
+            pw = sync_playwright()
+            p = pw.__enter__()
+            browser = p.chromium.launch(headless=True)
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+            )
+            page = context.new_page()
+            page.goto(url, timeout=60000, wait_until="domcontentloaded")
+            try:
+                page.wait_for_selector('[data-ti="price"]', timeout=45000)
+                page.wait_for_timeout(3000)
+            except Exception:
+                pass
+
+            offers = page.evaluate("""() => {
+                function walk(node) {
+                    let found = [];
+                    if (node && node.querySelectorAll) {
+                        found = Array.from(node.querySelectorAll('[data-ti="price"]'));
+                    }
+                    if (node && node.shadowRoot) {
+                        found = found.concat(walk(node.shadowRoot));
+                    }
+                    for (const child of (node ? Array.from(node.children || []) : [])) {
+                        found = found.concat(walk(child));
+                    }
+                    return found;
+                }
+                const allCheckoutLinks = Array.from(document.querySelectorAll('a[href*="checkout.tutu.ru/cart/"]'));
+                const items = walk(document);
+                return Array.from(items).map(el => {
+                    const txt = el.textContent.replace(/\\D/g, '');
+                    const price = txt ? parseInt(txt, 10) : 0;
+                    let link = '';
+                    const card = el.closest('[class*="offer"], [class*="card"], [class*="result"], [class*="ticket"], li, [data-ti*="offer"]');
+                    if (card) {
+                        const checkoutLink = card.querySelector('a[href*="checkout.tutu.ru/cart/"]');
+                        if (checkoutLink && checkoutLink.href) {
+                            link = checkoutLink.href;
+                        }
+                    }
+                    if (!link) {
+                        let parent = el.closest('a');
+                        while (parent && !parent.href) {
+                            parent = parent.parentElement ? parent.parentElement.closest('a') : null;
+                        }
+                        if (parent && parent.href) {
+                            link = parent.href;
+                        }
+                    }
+                    if (!link && allCheckoutLinks.length > 0) {
+                        let closest = null;
+                        let closestDist = Infinity;
+                        const elRect = el.getBoundingClientRect ? el.getBoundingClientRect() : null;
+                        if (elRect) {
+                            for (const cl of allCheckoutLinks) {
+                                const cr = cl.getBoundingClientRect ? cl.getBoundingClientRect() : null;
+                                if (cr) {
+                                    const dist = Math.abs(cr.top - elRect.top) + Math.abs(cr.left - elRect.left);
+                                    if (dist < closestDist) {
+                                        closestDist = dist;
+                                        closest = cl;
+                                    }
+                                }
+                            }
+                        }
+                        if (closest && closestDist < 500) {
+                            link = closest.href;
+                        }
+                    }
+                    return { price, link };
+                }).filter(o => o.price >= 3000 && o.price <= 500000);
+            }""")
+            if offers and isinstance(offers, list) and len(offers) >= 2:
+                cheapest = min(offers, key=lambda o: o.get('price', 0))
+                return (cheapest['price'], cheapest.get('link') or None)
+
+            text = page.inner_text("body")
+            if text:
+                for match in re.finditer(r"(\d{1,3}(?:[ \u00A0\u202F\u2060\u2009\uFEFF]+\d{3})+|\d{4,6})\s*[₽р]", text, flags=re.IGNORECASE | re.DOTALL):
+                    start = max(0, match.start() - 30)
+                    prefix = text[start:match.start()].lower()
+                    if re.search(r'(?:^|\s)от\s*$', prefix):
+                        continue
+                    raw = match.group(1)
+                    numeric = int(re.sub(r"\D", "", raw))
+                    if self.PRICE_MIN <= numeric <= self.PRICE_MAX:
+                        return (numeric, None)
+
+            return None
+        except Exception:
+            return None
+        finally:
+            try:
+                if browser:
+                    browser.close()
+            except Exception:
+                pass
+            try:
+                if pw:
+                    pw.__exit__(None, None, None)
+            except Exception:
+                pass
 
     def _fetch_tutu_offers_api_min_price(self, from_id: int, to_id: int, departure_date: date) -> int | None:
         base_payload = {
@@ -937,6 +1109,7 @@ class TutuClient:
             ),
         ]
 
+        all_prices: list[int] = []
         for url, payload in attempts:
             try:
                 response = self.session.post(
@@ -957,16 +1130,23 @@ class TutuClient:
 
             if parsed is not None:
                 candidates = self._extract_price_candidates(parsed)
-                if candidates:
-                    return candidates[0]
+                all_prices.extend(candidates)
 
-            text = response.text or ""
-            for raw in re.findall(r'"amount"\s*:\s*(\d{4,6})', text, flags=re.IGNORECASE):
-                numeric = int(raw)
-                if self.PRICE_MIN <= numeric <= self.PRICE_MAX:
-                    return numeric
+        return self._select_api_price(all_prices)
 
-        return None
+    @staticmethod
+    def _select_api_price(prices: list[int]) -> int | None:
+        if not prices:
+            return None
+        if len(prices) == 1:
+            return prices[0]
+        sorted_prices = sorted(prices)
+        mid = len(sorted_prices) // 2
+        if sorted_prices[-1] / sorted_prices[0] > 1.3:
+            for i in range(len(sorted_prices) - 1):
+                if sorted_prices[i + 1] / sorted_prices[i] > 1.3:
+                    return sorted_prices[i + 1]
+        return sorted_prices[0]
 
     def _extract_price_candidates(self, node: object) -> list[int]:
         results: list[int] = []
@@ -983,7 +1163,7 @@ class TutuClient:
             if not isinstance(value, (int, float)):
                 return
 
-            strict_markers = ("price", "amount", "minprice", "cheapest", "total")
+            strict_markers = ("price", "minprice", "cheapest", "total")
             if not any(marker in key_path for marker in strict_markers):
                 return
 
@@ -996,10 +1176,10 @@ class TutuClient:
 
     def _extract_price_from_text(self, text: str) -> int | None:
         patterns = [
-            r"Прямой\s+от\s*(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*₽",
-            r"от\s*(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*₽",
-            r"(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*₽\s*за\s+одного",
-            r"(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*₽",
+            r"Прямой\s+от\s*(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*[₽р]",
+            r"от\s*(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*[₽р]",
+            r"(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*[₽р]\s*за\s+одного",
+            r"(\d{1,3}(?:[ \u00A0]\d{3})+|\d{4,6})\s*[₽р]",
         ]
         for pattern in patterns:
             for raw in re.findall(pattern, text, flags=re.IGNORECASE | re.DOTALL):
@@ -1009,15 +1189,18 @@ class TutuClient:
         return None
 
     def _build_tutu_hot_link(self, city_from: str, city_to: str, iata_from: str, iata_to: str, departure_at: str) -> str:
-        from_slug = self.IATA_TO_TUTU_SLUG.get(iata_from.upper(), city_from)
-        to_slug = self.IATA_TO_TUTU_SLUG.get(iata_to.upper(), city_to)
+        from_slug = self._resolve_tutu_slug(iata_from, city_from)
+        to_slug = self._resolve_tutu_slug(iata_to, city_to)
         route_base = f"https://avia.tutu.ru/f/{from_slug}/{to_slug}/"
 
         dep = self._extract_date(departure_at)
-        from_id = self.IATA_TO_TUTU_ID.get(iata_from.upper())
-        to_id = self.IATA_TO_TUTU_ID.get(iata_to.upper())
-        if dep and from_id and to_id:
-            return f"{route_base}?class=Y&passengers=100&route[0]={from_id}-{dep.strftime('%d%m%Y')}-{to_id}&travelers=1"
+        from_id = self._resolve_tutu_id(iata_from)
+        to_id = self._resolve_tutu_id(iata_to)
+        if not dep:
+            return route_base
+        date_str = dep.strftime('%d%m%Y')
+        if from_id and to_id:
+            return f"{route_base}?class=Y&travelers=1&route[0]={from_id}-{date_str}-{to_id}#hs97v380z2"
         return route_base
 
     @staticmethod
@@ -1129,8 +1312,7 @@ class KupibiletClient:
                 limit=safe_limit,
                 deep_scan=deep_scan,
             )
-            if hot_tickets:
-                return hot_tickets[:safe_limit]
+            return hot_tickets[:safe_limit]
 
         dep_date = departure_date or datetime.now(timezone.utc).date()
 
@@ -1411,10 +1593,11 @@ class KupibiletClient:
             dep_date,
             None,
         )
+        markup = random.randint(200, 400)
         return Ticket(
             origin=reference_ticket.origin,
             destination=reference_ticket.destination,
-            price=reference_ticket.price,
+            price=reference_ticket.price + markup,
             airline=reference_ticket.airline,
             departure_at=reference_ticket.departure_at,
             transfers=reference_ticket.transfers,
@@ -2129,6 +2312,8 @@ class KupibiletClient:
                 break
 
         tickets.sort(key=lambda item: (item.price, item.departure_at, item.destination))
-        return tickets
+        # Return only tickets with timer (hot ones)
+        timed = [t for t in tickets if t.hot_expires_at]
+        return timed
 
 

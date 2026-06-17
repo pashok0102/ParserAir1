@@ -488,17 +488,16 @@ def get_tickets_for_period(
         return merged
 
     if source_name == 'both':
-        if not anywhere:
-            aviasales_range = build_fast_reference_range()
-            merged: list[Ticket] = []
-            for ticket in aviasales_range:
-                merged.append(ticket)
-                merged.append(tutu_client.build_fallback_ticket(ticket))
-                merged.append(kupibilet_client.build_fallback_ticket(ticket))
-            merged.sort(key=lambda t: (parse_departure_for_sort(t.departure_at), t.price, t.source, t.airline))
-            if limit is None:
-                return merged
-            return merged[: max(limit * days_count, limit)]
+        aviasales_range = build_fast_reference_range()
+        merged: list[Ticket] = []
+        for ticket in aviasales_range:
+            merged.append(ticket)
+            merged.append(tutu_client.build_fallback_ticket(ticket))
+            merged.append(kupibilet_client.build_fallback_ticket(ticket))
+        merged.sort(key=lambda t: (parse_departure_for_sort(t.departure_at), t.price, t.source, t.airline))
+        if limit is None:
+            return merged
+        return merged[: max(limit * days_count, limit)]
 
     if source_name == 'aviasales' and not anywhere:
         def fetch_aviasales_range_chunk(chunk_start: date, chunk_end: date) -> list[Ticket]:
